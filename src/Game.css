@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+}
+
+.frozen-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 95%;
+    width: 30%;
+    color: rgb(13, 164, 190);
+    font-size: 50px;
+}
+
+.sam {
+    height: 300px;
+    padding: 10px;
+}
+
+.characters {
+    height: 90px;
+    width: 90px;
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1020px;
+}
+
+.label {
+    display: flex;
+}
+
+.label div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    background-color: teal;
+}
+
+.tweety-track,
+.muttley-track {
+    display: flex;
+    width: 100%;
+}
+
+.tweety-track div,
+.muttley-track div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: orangered;
+}
+
+.turn-button {
+    width: 100px;
+    margin: 10px;
+}
+
+.game-over {
+    font-size: 50px;
+}
+
+.winner {
+    font-size: 40px;
+}
